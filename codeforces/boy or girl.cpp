@@ -9,7 +9,7 @@ int main() {
 
     set<char> letters;
     for(char c : name) {
-        letters.insert(c);  // نضيف الحروف للمجموعة → تبقى مميزة تلقائيًا
+        letters.insert(c);  // عملت setعشان بتبقي  عناصر غير مكرره
     }
 
     if(letters.size() % 2 == 0)
